@@ -1,0 +1,580 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    background-blend-mode: overlay;
+}
+
+
+.background-image {
+    background-image: url(images/🎀🎀.jpg);
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Ensure the background image stays fixed during scrolling */
+    background-blend-mode: overlay;
+box-shadow: #eee5e3;
+}
+
+
+
+
+.col-8 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+    #logo, .navbar-brand {
+        display: flex;
+        max-width: 100%;
+        max-height: 100px;
+        justify-content: left;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        font-family: "Gochi Hand";
+        font-size: 40px;
+        font-weight: bolder;
+        
+    }
+
+
+    .navbar {
+        background-color: transparent; /* Make the navbar background transparent */
+    }
+   
+ .nav-link{
+    display: flex;
+    color: rgba(5, 5, 5, 0.785) ;
+    font-family: "Gochi Hand";
+    font-weight: bold;
+    font-size: 20px;
+    justify-content:center;
+    align-self: center;
+    
+}
+
+.nav-link:hover , .navbar-brand:hover  {
+    color:  #ff67c5; /* Change this to the desired hover text color */
+}
+
+
+
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color:transparent;
+    color: black;
+    font-family: "Gochi Hand";
+   
+   font-size: 20px;
+   font-weight: bold;
+
+    width: 100px;
+    height: 50px;
+
+    }
+
+    
+    .btn:hover  {
+        color:  rgb(242, 201, 208); /* Change this to the desired hover text color */
+    }
+
+ 
+
+
+#heroimg {
+    max-width: 80%;
+    
+    max-height: 100%;
+      
+    margin-left: 100px;
+}
+
+    
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh; /* Take most of the page height */
+    border: border-box;
+    background-color: transparent;
+     
+
+}
+
+.hero-text {
+    
+    padding: 20px;
+    margin-left: 30px;
+    max-width: 100%;
+    font-family:"Gochi Hand" ;
+    background: rgba(255, 255, 255, 0.2); /* Add a semi-transparent background to make text readable */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Frosted glass effect for Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);}
+
+.hero-text h3 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.hero-text .hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color:#ff67c5;
+    color: black;
+    font-family: "Gochi Hand";
+    outline:  5px solid rgb(1, 0, 1);
+    border-radius: 15%;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 100px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.hero-text .hero-button:hover {
+    color:  rgb(242, 201, 208);
+}
+
+.promise-section {
+    background-color:transparent;
+    padding: 50px;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .happy-dog {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 0 30px;
+    font-family: "Gochi Hand";
+  }
+  
+  .text-container h3 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #666;
+    font-family: "Gochi Hand";
+  }
+  
+  .text-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #222;
+    font-family: "Gochi Hand";
+  }
+  
+  .text-container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    font-family: "Gochi Hand";
+  }
+  
+
+  
+  
+
+  .ag-format-container {
+    margin: 0 auto;
+    background-color: transparent;
+   
+}
+
+
+
+
+.ag-courses_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+
+.ag-courses_item {
+    width: calc(25% - 30px); /* 25% width minus margin to fit 4 boxes in a row */
+    height: 300px; /* Set a fixed height for all boxes */
+    margin: 0 15px 30px; /* Margin around each box */
+    overflow: hidden;
+    border-radius: 28px;
+    background-color: black; /* Set the background color */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 2px solid #ccc; /* Add a border to the boxes */
+    font-family: "Gochi Hand"; /* Set the font for the boxes */
+    padding: 30px 20px; /* Add padding inside the box */
+    color: white; /* Set the font color */
+    text-align: center; /* Center the text */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+    position: relative; /* For positioning the background circle */
+}
+
+.ag-courses_item:hover {
+    background-color: #333; /* Change background color on hover */
+    color: #FFF; /* Change text color on hover */
+}
+
+.ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #f9b234;
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.ag-courses_item:hover .ag-courses-item_bg {
+    transform: scale(10);
+}
+
+.ag-courses-item_logo img {
+    max-height: 100px; 
+}
+
+.ag-courses-item_title {
+    padding-top:70px;
+    padding-bottom: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    line-height: 1.2;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    
+   
+}
+.ag-courses_item:nth-child(1n) .ag-courses-item_bg {
+    background-color: rgb(237, 237, 9);
+}
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+    background-color: #3ecd5e;
+}
+
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+    background-color: rgb(255, 136, 0);
+}
+
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+    background-color: #952aff;
+}
+
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+    background-color: #cd3e94;
+}
+
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+    background-color: rgb(255, 0, 0);
+}
+.ag-courses_item.ag-courses_item:nth-child(7n) .ag-courses-item_bg {
+    background-color: rgb(93, 3, 3);
+}
+
+.ag-courses_item:nth-child(8n) .ag-courses-item_bg {
+    background-color: gray;
+}
+@media only screen and (max-width: 979px) {
+    .ag-courses_item {
+        width: calc(50% - 30px);
+        height: auto; /* Adjust height for smaller screens */
+    }
+    .ag-courses-item_title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ag-format-container {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .ag-courses_item {
+        width: 100%;
+        height: auto; /* Adjust height for smaller screens */
+    }
+    .ag-courses-item_title {
+        min-height: 72px;
+        line-height: 1;
+        font-size: 24px;
+    }
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.bi{
+background-image: url(images/🎀🎀.jpg);
+
+
+
+}
+
+
+.rely-section {
+    background-color: transparent;
+    padding: 50px;
+  }
+  
+  .why-rely h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Gochi Hand";
+  }
+  
+  .reasons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 40px;
+    justify-items: center;
+    font-family: "Gochi Hand";
+  }
+  
+  .reason {
+    display: flex;
+    align-items: center;
+    font-family: "Gochi Hand";
+  }
+  
+  .reason img.icon {
+    width: 50px;
+    margin-right: 15px;
+  }
+  
+  .reason .text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  .reason .text p {
+    font-size: 16px;
+    color: #666;
+  }
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+  
+  .packages {
+    margin: 20px;
+    width: 300px;
+    padding-bottom: 1.5em;
+    height: 100%;
+    background-color: #1e2321;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
+    flex-wrap: wrap;
+    color: #f4f4f4;
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+  }
+  
+  .packages:hover {
+    background-color: #2a2e2e; /* Darker shade on hover */
+  }
+  
+  h1 {
+    font-size: 2.5em; /* Increased font size for better visibility */
+    padding: 15px 0; /* Added padding for a button-like feel */
+    cursor: pointer; /* Indicate that it's clickable */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+  }
+  
+  h1:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+  
+  h2 {
+    font-size: 2.2em;
+  }
+  
+  .list li {
+    font-size: 20px;
+    list-style: none;
+    border-bottom: 1px solid #f4f4f4;
+    padding-inline-start: 0;
+    padding: 10px;
+  }
+  
+  .first {
+    margin-top: 40px;
+    border-top: 1px solid #f4f4f4;
+  }
+  
+  .list {
+    width: 80%;
+  }
+  
+  ol,
+  ul {
+    padding: 0;
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input,
+  label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+  }
+  
+  .button {
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 15px 15px;
+    border-radius: 50px;
+    color: #f4f4f4;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .button1 {
+    background-color: #00cc99;
+    box-shadow: 0 0 10px 0 #00cc99 inset, 0 0 20px 2px #00cc99;
+  }
+  
+  .button2 {
+    background-color: #ff007c;
+    box-shadow: 0 0 10px 0 #ff007c inset, 0 0 20px 2px #ff007c;
+  }
+  
+  .button3 {
+    background-color: #ffae42;
+    box-shadow: 0 0 10px 0 #ffae42 inset, 0 0 20px 2px #ffae42;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1e2321;
+    transition: 0.6s ease transform, 0.6s box-shadow;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #50bfe6;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #50bfe6;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .package-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  .pp{
+
+
+    padding-top: 30 px;
+    padding: 30px;
+    font-family: "Gochi Hand";
+  }
+
+
+  #para
+  {
+padding: 50px;
+font-family: "Gochi Hand";
+
+
+  }
+  .lol
+    {
+        background-color: transparent;
+        margin-top: 0px;
+    }
+
+   
